@@ -1,0 +1,37 @@
+<!doctype html >
+<html>
+    <body>
+        <h1>Please fill in the information</h1>
+        <form>       
+          <lable>last name</lable><input type="text" name="name"/><br>
+         <label> email</label><input type="email" name="useremail"/><br>
+        </form>
+        <input type="submit" value="send"/>
+        <input type="reset" value="cancel;"/><br>
+        <p>gender<p>
+            female<input type="radio" name="gender" value="male"/>
+            male<input type="radio" name="gender" value="female"/>
+            <input type="submit" value="send"/><br>
+            Year<input type="number" name="yearofstudy" min="1" max="5"/><br>
+            <input type="submit" value="send"/><br>
+            year of birth<input type="datetime-local"/>
+            <p>favorite food</p>
+            matooke<input type="checkbox" name="matooke" value="yes"/><br>
+            rice<input type="checkbox" name="rice" value="yes"/><br>
+            beans<input type="checkbox" name="beans" value="yes"/><br>
+            <label>best car</label>
+            <select name="FAVOURATE CAR">
+                <option value="TOYOTA">TOYOTA</option>
+                <option value="LAMBORGHIN">LAMBORGHIN</option>
+                <OPTIOn value="benz">benz</OPTIOn> 
+            </select><br>
+            <label>salary</label><input type="number" min="2000" max="300000" step="50000"><br>
+            <label>upload passpport photo</label><input type="file" name="photo" multiple accept="image/*"/>
+            <input type="submit" value="send"><br>
+            <textarea name="comment"  cols="30" rows="6">
+                please coomment and rate
+            </textarea>
+            <input type="submit" value="send">
+            </form>
+    </body>
+</html>
